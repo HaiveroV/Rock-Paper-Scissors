@@ -45,7 +45,7 @@ function getWinner(p, b) {
         }
     } else if (p === 'paper') {
         if (b === 'scissors') {
-            return 'Bot Win!!';
+            return 'Bot Wins!';
         } else {
             return 'You Win!';
         }
